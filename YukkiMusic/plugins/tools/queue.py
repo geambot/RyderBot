@@ -18,14 +18,14 @@ from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import app
-from YukkiMusic.misc import db
-from YukkiMusic.utils import (Yukkibin, get_channeplayCB,
+from RyderBot import app
+from RyderBot.misc import db
+from RyderBot.utils import (RyderBotbin, get_channeplayCB,
                               seconds_to_min)
-from YukkiMusic.utils.database import (get_cmode, is_active_chat,
+from RyderBot.utils.database import (get_cmode, is_active_chat,
                                        is_music_playing)
-from YukkiMusic.utils.decorators.language import language, languageCB
-from YukkiMusic.utils.inline import queue_back_markup, queue_markup
+from RyderBot.utils.decorators.language import language, languageCB
+from RyderBot.utils.inline import queue_back_markup, queue_markup
 
 ###Commands
 QUEUE_COMMAND = get_command("QUEUE_COMMAND")
@@ -216,7 +216,7 @@ async def queued_tracks(client, CallbackQuery: CallbackQuery, _):
             )
         if "🏷" in msg:
             msg = msg.replace("🏷", "")
-        link = await Yukkibin(msg)
+        link = await RyderBotbin(msg)
         med = InputMediaPhoto(
             media=link, caption=_["queue_3"].format(link)
         )
