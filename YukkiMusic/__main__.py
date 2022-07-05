@@ -72,10 +72,10 @@ async def init():
     except:
         pass
     await RyderBot.decorators()
-    LOGGER("RyderBot").info("Yukki Music Bot Started Successfully")
+    LOGGER("RyderBot").info("RyderBot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("RyderBot").info("Stopping Yukki Music Bot! GoodBye")
+    LOGGER("RyderBot").info("Stopping RyderBot! GoodBye")
