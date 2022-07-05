@@ -49,7 +49,7 @@ async def stream(
         if not await is_video_allowed(chat_id):
             raise AssistantErr(_["play_7"])
     if forceplay:
-        await Yukki.force_stop_stream(chat_id)
+        await RyderBot.force_stop_stream(chat_id)
     if streamtype == "playlist":
         msg = f"{_['playlist_16']}\n\n"
         count = 0
@@ -98,7 +98,7 @@ async def stream(
                     )
                 except:
                     raise AssistantErr(_["play_16"])
-                await Yukki.join_call(
+                await RyderBot.join_call(
                     chat_id, original_chat_id, file_path, video=status
                 )
                 await put_queue(
@@ -129,7 +129,7 @@ async def stream(
         if count == 0:
             return
         else:
-            link = await Yukkibin(msg)
+            link = await RyderBotbin(msg)
             lines = msg.count("\n")
             if lines >= 17:
                 car = os.linesep.join(msg.split(os.linesep)[:17])
@@ -179,7 +179,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await RyderBot.join_call(
                 chat_id, original_chat_id, file_path, video=status
             )
             await put_queue(
@@ -233,7 +233,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await RyderBot.join_call(
                 chat_id, original_chat_id, file_path, video=None
             )
             await put_queue(
@@ -287,7 +287,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await RyderBot.join_call(
                 chat_id, original_chat_id, file_path, video=status
             )
             await put_queue(
@@ -348,7 +348,7 @@ async def stream(
             n, file_path = await YouTube.video(link)
             if n == 0:
                 raise AssistantErr(_["str_3"])
-            await Yukki.join_call(
+            await RyderBot.join_call(
                 chat_id, original_chat_id, file_path, video=status
             )
             await put_queue(
@@ -400,7 +400,7 @@ async def stream(
         else:
             if not forceplay:
                 db[chat_id] = []
-            await Yukki.join_call(
+            await RyderBot.join_call(
                 chat_id,
                 original_chat_id,
                 link,
