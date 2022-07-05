@@ -12,10 +12,10 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.misc import db
-from YukkiMusic.utils import AdminRightsCheck, seconds_to_min
+from RyderBot import YouTube, app
+from RyderBot.core.call import RyderBot
+from RyderBot.misc import db
+from RyderBot.utils import AdminRightsCheck, seconds_to_min
 
 # Commands
 SEEK_COMMAND = get_command("SEEK_COMMAND")
@@ -70,7 +70,7 @@ async def seek_comm(cli, message: Message, _, chat_id):
         if n == 0:
             return await message.reply_text(_["admin_30"])
     try:
-        await Yukki.seek_stream(
+        await RyderBot.seek_stream(
             chat_id,
             file_path,
             seconds_to_min(to_seek),
