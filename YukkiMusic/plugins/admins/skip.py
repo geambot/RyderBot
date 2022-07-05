@@ -13,15 +13,15 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from YukkiMusic import YouTube, app
-from YukkiMusic.core.call import Yukki
-from YukkiMusic.misc import db
-from YukkiMusic.utils.database import get_loop
-from YukkiMusic.utils.decorators import AdminRightsCheck
-from YukkiMusic.utils.inline.play import (stream_markup,
+from RyderBot import YouTube, app
+from RyderBot.core.call import RyderBot
+from RyderBot.misc import db
+from RyderBot.utils.database import get_loop
+from RyderBot.utils.decorators import AdminRightsCheck
+from RyderBot.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from YukkiMusic.utils.stream.autoclear import auto_clean
-from YukkiMusic.utils.thumbnails import gen_thumb
+from RyderBot.utils.stream.autoclear import auto_clean
+from RyderBot.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
@@ -69,7 +69,7 @@ async def skip(cli, message: Message, _, chat_id):
                                             message.from_user.first_name
                                         )
                                     )
-                                    await Yukki.stop_stream(chat_id)
+                                    await RyderBot.stop_stream(chat_id)
                                 except:
                                     return
                                 break
@@ -96,7 +96,7 @@ async def skip(cli, message: Message, _, chat_id):
                     _["admin_10"].format(message.from_user.first_name)
                 )
                 try:
-                    return await Yukki.stop_stream(chat_id)
+                    return await RyderBot.stop_stream(chat_id)
                 except:
                     return
         except:
