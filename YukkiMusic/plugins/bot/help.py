@@ -16,12 +16,12 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
 from YukkiMusic import app
-from YukkiMusic.misc import SUDOERS
-from YukkiMusic.utils import help_pannel
-from YukkiMusic.utils.database import get_lang, is_commanddelete_on
-from YukkiMusic.utils.decorators.language import (LanguageStart,
+from RyderBot.misc import SUDOERS
+from RyderBot.utils import help_pannel
+from RyderBot.utils.database import get_lang, is_commanddelete_on
+from RyderBot.utils.decorators.language import (LanguageStart,
                                                   languageCB)
-from YukkiMusic.utils.inline.help import (help_back_markup,
+from RyderBot.utils.inline.help import (help_back_markup,
                                           private_help_panel)
 
 ### Command
