@@ -1,6 +1,6 @@
 {
     "name": "RyderBot",
-    "description": "Telegram Group Calls streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
+    "description": "Supporting platforms like Youtube, Spotify, Resso, AppleMusic, Soundcloud and M3u8 Links.",
     "logo": "https://te.legra.ph/file/1d6f55f754c0ad3b69048.jpg",
     "keywords": [
     "python3",
