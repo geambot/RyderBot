@@ -1,6 +1,6 @@
 .env
 .cache
-Yukkilogs.txt
+RyderBotlogs.txt
 .DS_Store
 *.session
 raw_files/
