@@ -15,7 +15,7 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS
 from strings import get_command, get_string, helpers
-from YukkiMusic import app
+from RyderBot import app
 from RyderBot.misc import SUDOERS
 from RyderBot.utils import help_pannel
 from RyderBot.utils.database import get_lang, is_commanddelete_on
