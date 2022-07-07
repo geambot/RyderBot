@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-If there are any vulnerabilities in **YukkiMusicBot**, don't hesitate to _report them_.
+If there are any vulnerabilities in **RdyerBot**, don't hesitate to _report them_.
 
 1. Use any of the [private contact addresses](https://github.com/#support).
 2. Describe the vulnerability.
