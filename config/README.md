@@ -70,7 +70,7 @@ Config vars are basically the variables which configure or modify bot to functio
 - To work some Heroku compatible modules, this var value required to Access your account to use `get_log`, `usage`, `update` etc etc commands.
 - You can fill this var using your API key or Authorization token.
 
-### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
+### How to get these? 
 
 1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
 2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your in Heroku. 
@@ -100,7 +100,7 @@ Config vars are basically the variables which configure or modify bot to functio
 6. `TELEGRAM_AUDIO_URL` : This image comes when someone plays audios from telegram. 
 7. `TELEGRAM_VIDEO_URL` : This image comes when someone plays videos from telegram. 
 8. `STREAM_IMG_URL` : his image comes when someone plays m3u8 or index links.
-9. `SOUNCLOUD_IMG_URL` : This image comes when someone plays music from soundcloud. 
+9. `SOUNCLOUD_IMG_URL` : This image comes when someone plays from soundcloud. 
 10. `YOUTUBE_IMG_URL` : This image comes if thumbnail generator fails to gen thumb anyhow.
 11. `SPOTIFY_ARTIST_IMG_URL` : This image comes when someone plays Spotify artist via link in inline mode. 
 12. `SPOTIFY_ALBUM_IMG_URL` : This image comes when someone plays Spotify album via link in inline mode. 
