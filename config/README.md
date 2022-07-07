@@ -1,8 +1,8 @@
-# Yukki Music Bot Configs
+# Configs
 
 Config vars are basically the variables which configure or modify bot to function, which are the basic necessities of plugins or code to work. You have to set the proper mandatory vars to make it functional and to start the basic feature of bot.
 
-### Get to know about all these vars in depth from our Docs. [Read Now from Here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/available-vars)
+### Get to know about all these vars in depth from our Docs. [Read Now from Here]
 
 ## Mandatory Vars
 
@@ -89,8 +89,8 @@ Config vars are basically the variables which configure or modify bot to functio
 
 ## Images/Thumbnail Vars
 
-- You can change images which are used in Yukki Music Bot.
-- You can generate telegaph links from [@YukkiTelegraphBot](http://t.me/YukkiTelegraphBot) and use it here.
+- You can change images which are used in.
+- You can generate telegaph links from .and use it here.
 
 1. `START_IMG_URL` : Image which comes on /start command in private messages of bot.
 2. `PING_IMG_URL` : Image which comes on /ping command of bot.
@@ -110,7 +110,7 @@ Config vars are basically the variables which configure or modify bot to functio
 
 - You can use upto 5 Assistant Clients ( allowing your bot to atleast work in 2000-2500 chats at a time )
 
-1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
-4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@YukkiStringBot](http://t.me/YukkiStringBot) in Telegram.
+1. `STRING_SESSION2` : Pyrogram Session Needed, Generate string from [@Grup](http://t.me/gabutbrothers) in Telegram.
+2. `STRING_SESSION3` : Pyrogram Session Needed, Generate string from [@Grup](http://t.me/gabutbrothers) in Telegram.
+3. `STRING_SESSION4` : Pyrogram Session Needed, Generate string from [@Grup](http://t.me/gabutbrothers) in Telegram.
+4. `STRING_SESSION5` : Pyrogram Session Needed, Generate string from [@Grup](http://t.me/gabutbrothers) in Telegram.
