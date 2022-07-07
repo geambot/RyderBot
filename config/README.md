@@ -6,21 +6,21 @@ Config vars are basically the variables which configure or modify bot to functio
 
 ## Mandatory Vars
 
-- These are the minimum required vars need to setup to make Yukki Music Bot functional.
+- These are the minimum required vars need to setup functional.
 
 1. `API_ID` : Get it from my.telegram.org 
 2. `API_HASH`  : Get it from my.telegram.org 
 3. `BOT_TOKEN` : Get it from [@Botfather](http://t.me/BotFather) in Telegram
-4. `MONGO_DB_URI` : Get mongo db [from here.](https://notreallyshikhar.gitbook.io/yukkimusicbot/deployment/mongodb)
+4. `MONGO_DB_URI` : Get mongo db [from here.]
 5. `LOG_GROUP_ID` : You'll need a Private Group ID for this. Supergroup Needed with id starting from -100 
-6. `MUSIC_BOT_NAME` : A name for your Music bot.
+6. `MUSIC_BOT_NAME` : A name for your.
 7. `OWNER_ID` : Your Owner ID for managing your bot.
 8. `STRING_SESSION` : Pyrogram Session Needed, Generate string from in Telegram.
 
 
 ## Non-Mandatory Vars
 
-- These are the extra vars for extra features inside Music Bot. You can leave non mandatory vars for now and can add them later.
+- These are the extra vars for extra features inside. You can leave non mandatory vars for now and can add them later.
 
 1. `DURATION_LIMIT` : Custom max audio(music) duration for voice chat. Default to 60 mins.
 2. `SONG_DOWNLOAD_DURATION_LIMIT`  : Duration Limit for downloading Songs in MP3 or MP4 format from bot. Default to 180 mins.
@@ -28,8 +28,8 @@ Config vars are basically the variables which configure or modify bot to functio
 4. `SERVER_PLAYLIST_LIMIT` : Maximum Limit Allowed for users to save playlists on bot's server. Default to 30
 5. `PLAYLIST_FETCH_LIMIT` :  Maximum limit for fetching playlist's track from youtube, spotify, apple links. Default to 25
 6. `CLEANMODE_MINS` : Cleanmode time after which bot will delete its old messages from chats. Default to 5 Mins.
-7. `SUPPORT_CHANNEL` : If you've any channel for your music bot , fill it with your channel link
-8. `SUPPORT_GROUP` : If you've any group support for your music bot , fill it with your group link
+7. `SUPPORT_CHANNEL` : If you've any channel for your, fill it with your channel link
+8. `SUPPORT_GROUP` : If you've any group support for your, fill it with your group link
 
 ## Play FileSize Limit Vars
 
