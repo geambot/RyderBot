@@ -73,7 +73,7 @@ Config vars are basically the variables which configure or modify bot to functio
 ### How to get these? [Read from here](https://notreallyshikhar.gitbook.io/yukkimusicbot/config-vars/heroku-vars)
 
 1. `HEROKU_API_KEY` : Get it from http://dashboard.heroku.com/account 
-2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your Music Bot in Heroku. 
+2. `HEROKU_APP_NAME` : You have to Enter the app name which you gave to identify your in Heroku. 
 
 
 ## Custom Repo Vars
